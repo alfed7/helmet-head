@@ -1,14 +1,13 @@
 {
   "name": "helmet-head",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "homepage": "https://github.com/alfed7/helmet-head",
   "repository": "https://github.com/alfed7/helmet-head",
   "author": "Alexander Fedorenko",
   "license": "MIT",
   "private": false,
-  "main": "dist/index.cjs.js",
+  "main": "dist/index.esm.js",
   "module": "dist/index.esm.js",
-  "browser": "dist/index.umd.js",
   "types": "dist/types/index.d.ts",
   "type": "module",
   "peerDependencies": {
