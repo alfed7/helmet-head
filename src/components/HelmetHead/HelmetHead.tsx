@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+import { Fragment } from "react";
 
 export interface IHelmetHeadProps {
   title: string,
@@ -7,14 +7,14 @@ export interface IHelmetHeadProps {
 
 export const HelmetHead = (props: IHelmetHeadProps) => {
   return (
-    <Helmet>
+    <Fragment>
       <meta
         content={props.title}
         property="og:title"
       />
       <title>{props.title}</title>
       {props.description && <meta name="description" content={props.description} />}
-    </Helmet>
+    </Fragment>
   );
 };
 
